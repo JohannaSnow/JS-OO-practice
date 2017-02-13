@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "company": "Hotel California",
+    "city": "Minneapolis",
+    "timezone": "US/Central"
+  },
+  {
+    "id": 2,
+    "company": "The Peninsula Chicago",
+    "city": "Chicago",
+    "timezone": "US/Central"
+  },
+  {
+    "id": 3,
+    "company": "Hilton Austin",
+    "city": "Austin",
+    "timezone": "US/Central"
+  },
+  {
+    "id": 4,
+    "company": "Embassy Suites Tampa Downtown",
+    "city": "Tampa",
+    "timezone": "US/Eastern"
+  },
+  {
+    "id": 5,
+    "company": "Fairmont Kea Lani",
+    "city": "Wailea",
+    "timezone": "US/Hawaii"
+  }
+]
