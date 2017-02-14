@@ -64,6 +64,7 @@ In the Terminal/Command Prompt; Find the Coding Project file and get down into t
 
  Language Choice
  ==========================================================================================================================
+
  Javascript
 
  I ended up choosing Javascript personally because I wanted to work outside the browser and use Node to run my code. While I've spent most of my time coding in Javascript, I've never used it to write objects before. I've always had the full stack to work with, so it was a great learning experience to try and figure out how I could use Javascript client side to write Classes that would be able to use the JSON data provided. While it was frustrating at times, I'm really glad I chose Javascript and doing it this way because I came out of the whole project knowing more about Classes, Constructors, Instantiation, and Prototypes. While I have dabbled in Java which is an OOP, I never really completely understood how it worked. But being able to learn how to create Objects during this project really helped to solidify my knowledge and create a strong foundation moving forward while writing code.
@@ -88,7 +89,6 @@ Would Add:
 
 
 Coding Project Requirements:
-
 =======================================================================================================================================
 
 We want to see your implementation of this process. More specifically, your code should:
