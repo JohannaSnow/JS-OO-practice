@@ -30,6 +30,18 @@
    startTimestamp,
    endTimestamp
  };
+ this.toJson = function(){
+   return ("{" +
+       "\"firstName\":\"" + this.firstName + "\"," +
+       "\"lastName\":\"" + this.lastName + "\"," +
+       "\"roomNumber\":\"" + this.roomNumber + "\"," +
+       "\"startTimestamp\":\"" + this.startTimestamp + "\"," +
+       "\"endTimestamp\":\"" + this.endTimestamp + "\"," +
+       "\"hotelParameter\":\"" + this.hotelParameter + "\"," +
+       "}");
+   };
+
+
  this.greeting = function() {
    var myDate = new Date();
    /*hour is before noon */
@@ -52,6 +64,9 @@
 }
 };
 }
+
+
+
  var guestHotel = new Hotel ('Super 8', 'Minneapolis', 'central');
 //   var json = Hotel.toJson ();
 // alert (json); //prints: {"company", "city", "timezone")
