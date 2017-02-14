@@ -15,12 +15,12 @@ Before you can install Node, you’ll need to install one other application, Hom
 Getting Started:
 -------------------------
 
-1) Open up Terminal
-2) Type: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
-3) Follow Instructions in Termial to finish setting up Homebrew
-4) Once that's complete; let's install Node
-5) Type: brew install node
-6) Sit back and wait. Homebrew downloads some files and installs them. And that’s it.
+1. Open up Terminal
+2. Type: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+3. Follow Instructions in Termial to finish setting up Homebrew
+4. Once that's complete; let's install Node
+5. Type: brew install node
+6. Sit back and wait. Homebrew downloads some files and installs them. And that’s it.
 
 To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:
 
@@ -34,14 +34,16 @@ I used Node version v4.5.0 to manage my code. Anything higher than that will als
 For Microsoft/Windows:
 ----------------------------------------------------------------------------------
 
-1) Download the Windows installer from the Nodes.js® web site.
-2) Run the installer (the .msi file you downloaded in the previous step.)
-3) Follow the prompts in the installer (Accept the license agreement, click the NEXT button a bunch of times and accept the default installation settings).
-4) Restart your computer
+1. Download the Windows installer from the Nodes.js® web site.
+2. Run the installer (the .msi file you downloaded in the previous step.)
+3. Follow the prompts in the installer (Accept the license agreement, click the NEXT button a bunch of times and accept the default installation settings).
+4. Restart your computer
 
 To see if Node is installed, open the Windows Command Prompt, Powershell or a similar command line tool, and type node -v. This should print a version number, so you’ll see something like this v0.10.35.
 To see if NPM is installed, type npm -v in Terminal. This should print NPM’s version number so you’ll see something like this 1.4.28
 
+
+If you prefer to skip HomeBrew, you may also download and install Node through their website: www.nodejs.org/en/download
 
 
 Once you have Node installed let's move on!
