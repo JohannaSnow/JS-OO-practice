@@ -1,12 +1,19 @@
-// var guests = require('./guests.json');
-//    console.log('guests', guests);
-//    var companies = require('./companies.json');
-//    console.log('companies', companies);
 
+/* start of Loading in guest and company information */
+var guests = require('./guests.json');
+   console.log('guests', guests);
+   var companies = require('./companies.json');
+   console.log('companies', companies);
+
+/* end of 1. Load in guest and company information  from JSON files */
+
+
+/* Hotel Class with Constructors */
  function Hotel(company, city, timeZone){
    this.company =company;
    this.city = city;
    this.timeZone = timeZone;
+   /*returning the JSON files*/
     this.toJson = function (){
        return ("{" +
            "\"company\":\"" + this.company + "\"," +
@@ -15,12 +22,13 @@
        "}");
    };
 }
+/* Need to build something to search each object in the array for a “match” of the hotel id. This is what I started to do, but I think I may need to use map() to reorganize the array*/
 //     Companies.fromJson = function (json){
 //     var obj = JSON.parse (json);
 //     return new Companies (obj.company, obj.city, obj.timeZone);
 // };
 
-
+/* Guest Class with Constructors */
  function Guest(firstName, lastName, roomNumber, startTimestamp, endTimestamp, hotelParameter) {
  this.firstName = firstName; ////property of guest
  this.lastName = lastName; /////property of guest
@@ -30,6 +38,7 @@
    startTimestamp,
    endTimestamp
  };
+  /*returning the JSON files*/
  this.toJson = function(){
    return ("{" +
        "\"firstName\":\"" + this.firstName + "\"," +
@@ -40,9 +49,8 @@
        "\"hotelParameter\":\"" + this.hotelParameter + "\"," +
        "}");
    };
-
-
- this.greeting = function() {
+   /* Greeting that will go out to guest depending on the time of day */
+   this.greeting = function() {
    var myDate = new Date();
    /*hour is before noon */
    if ( myDate.getHours() < 12 ){
@@ -66,12 +74,8 @@
 }
 
 
-
+/*Testing example with dummy date to see if everything is returning information */
  var guestHotel = new Hotel ('Super 8', 'Minneapolis', 'central');
-//   var json = Hotel.toJson ();
-// alert (json); //prints: {"company", "city", "timezone")
-//   var hotel = Hotel.fromJson (json);
-// alert (hotel.company); //prints: company
  var guest1 = new Guest('Joe', 'Schmoe', '403', '12345', '55432', 'guestHotel');
    guest1.greeting();
 console.log( 'guest1', guest1);
