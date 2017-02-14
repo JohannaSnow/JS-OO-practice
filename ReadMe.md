@@ -25,6 +25,7 @@ Getting Started:
 To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:
 
 To see if Node is installed, type node -v in Terminal. This should print the version number so you’ll see something like this v0.10.31.
+
 To see if NPM is installed, type npm -v in Terminal. This should print the version number so you’ll see something like this 1.4.27
 
 I used Node version v4.5.0 to manage my code. Anything higher than that will also work.
@@ -40,6 +41,8 @@ For Microsoft/Windows:
 4. Restart your computer
 
 To see if Node is installed, open the Windows Command Prompt, Powershell or a similar command line tool, and type node -v. This should print a version number, so you’ll see something like this v0.10.35.
+
+
 To see if NPM is installed, type npm -v in Terminal. This should print NPM’s version number so you’ll see something like this 1.4.28
 
 
@@ -69,7 +72,7 @@ Language Choice
 
  Javascript
 
- I ended up choosing Javascript personally because I wanted to work outside the browser and use Node to run my code. While I've spent most of my time coding in Javascript, I've never used it to write objects before. I've always had the full stack to work with, so it was a great learning experience to try and figure out how I could use Javascript client side to write Classes that would be able to use the JSON data provided. While it was frustrating at times, I'm really glad I chose Javascript and doing it this way because I came out of the whole project knowing more about Classes, Constructors, Instantiation, and Prototypes. While I have dabbled in Java which is an OOP, I never really completely understood how it worked. But being able to learn how to create Objects during this project really helped to solidify my knowledge and create a strong foundation moving forward while writing code.
+ I ended up choosing Javascript personally because I wanted to work outside the browser and use Node to run my code. While I've spent most of my time coding in Javascript, I've never used it to write objects before. I've always had the full stack to work with, so it was a great learning experience to try and figure out how I could use Javascript client side to write Classes that would be able to use the JSON data provided. While it was frustrating at times, I'm really glad I chose Javascript and doing it this way because I came out of the whole project knowing more about Classes, Constructors, Instantiation, and Prototypes. While I have dabbled in Java which is an OOP Language, I never really completely understood how it worked. But being able to learn how to create Objects during this project really helped to solidify my knowledge and create a strong foundation moving forward while writing code.
 
 
 Process for verifying the correctness of your program
@@ -81,6 +84,8 @@ Testing with Node
 
 Didn't Get To / Would Add:
 ==================================================================================================================================
+JSON files fully working in my Guest and Hotel classes. I feel as though I am close, but not quite there yet. I will continue researching and trying to implement it on my own. I think with a little more research, I'll get there.
+
 Didn't get to Unit Testing using Mocha/Chai; would eventually want to do that since unit tests makes it easier and safer to modify the code because the tests document and protect the intended behavior and will instantly catch any regressions. Mostly it can save time and money in the end.
 
 Would Add:
