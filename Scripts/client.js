@@ -1,16 +1,28 @@
-    //
-    // var guests = require('./guests.json');
-    // console.log('guests', guests);
-    // var companies = require('./companies.json');
-    // console.log('companies', companies);
+
+    var guests = require('./guests.json');
+    console.log('guests', guests);
+    var companies = require('./companies.json');
+    console.log('companies', companies);
 
   function Hotel(company, city, timeZone){
     this.company =company;
     this.city = city;
     this.timeZone = timeZone;
+//     this.toJson = function (){
+//        return ("{" +
+//            "\"company\":\"" + this.company + "\"," +
+//            "\"city\":\"" + this.city + "\"," +
+//            "\"timeZone\":\"" + this.timeZone + "\"," +
+//        "}");
+//    };
+// }
+//     Companies.fromJson = function (json){
+//     var obj = JSON.parse (json);
+//     return new Companies (obj.company, obj.city, obj.timeZone);
+// };
   }
 
-  function Guest(firstName, lastName, roomNumber, startTimestamp, endTimestamp, hotelParameter) { //Class
+  function Guest(firstName, lastName, roomNumber, startTimestamp, endTimestamp, hotelParameter) {
   this.firstName = firstName; ////property of guest
   this.lastName = lastName; /////property of guest
   this.hotel = hotelParameter;
@@ -42,6 +54,10 @@
 };
 }
   var guestHotel = new Hotel ('Super 8', 'Minneapolis', 'central');
+//   var json = Hotel.toJson ();
+// alert (json); //prints: {"company", "city", "timezone")
+//   var hotel = Hotel.fromJson (json);
+// alert (hotel.company); //prints: company
   var guest1 = new Guest('Joe', 'Schmoe', '403', '12345', '55432', 'guestHotel');
     guest1.greeting();
 console.log( 'guest1', guest1);
